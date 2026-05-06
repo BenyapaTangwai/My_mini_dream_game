@@ -56,14 +56,14 @@ function create() {
     this.anims.create({
         key: 'walk_l',
         frames: this.anims.generateFrameNumbers('walk_l_sheet', { start: 0, end: 4 }),
-        frameRate: 5,
+        frameRate: 8,
         repeat: -1
     });
 
     this.anims.create({
         key: 'walk_r',
         frames: this.anims.generateFrameNumbers('walk_r_sheet', { start: 0, end: 4 }),
-        frameRate: 5,
+        frameRate: 8,
         repeat: -1
     });
 
